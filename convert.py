@@ -6,7 +6,7 @@ from flask import Blueprint, request, jsonify
 
 convert_bp = Blueprint('convert', __name__)
 
-@convert_bp.route('/api/convert', methods=['POST'])
+@convert_bp.route('/convert', methods=['POST'])
 def convert_handler():
     if request.method != 'POST':
         return jsonify({"error": f"Method {request.method} Not Allowed"}), 405
