@@ -1,0 +1,100 @@
+.hero {
+  width: 60%;
+  height: auto;
+  margin: 0px 0 10px 0px;
+  padding: 25px 0 25px 0;
+  box-shadow: 2px 2px 10px rgb(184, 184, 184);
+  background-color: #f7f7f7e5;
+  resize: vertical;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__heading {
+  margin: 10px 15px 25px 15px;
+  padding: 0;
+  font-size: 36px;
+  line-height: 1.07;
+  align-self: center;
+  text-align: center;
+}
+
+.hero__list-instructions {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.hero__url-instruction {
+  margin-bottom: 3px;
+}
+
+.hero__textbox {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  height: 20px;
+  padding: 2px 0 2px 6px;
+}
+
+.hero__textbox::placeholder {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.hero__success-message {
+  display: none;
+  margin: 15px 25px 15px 55px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.07;
+}
+
+@media screen and (max-width: 1100px) {
+  .hero__heading {
+    margin: 0;
+    font-size: 28px;
+  }
+  .hero__list-instructions {
+    margin-left: 30px;
+    gap: 8px;
+    font-size: 14px;
+  }
+  .hero__textbox::placeholder {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 898px) {
+  .hero {
+    width: 70%;
+    padding: 20px 0 15px 0;
+  }
+  .hero__heading {
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 692px) {
+  .hero {
+    width: 90%;
+    padding: 0;
+  }
+  .hero__heading {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-size: 27px;
+  }
+
+  .hero__list-instructions {
+    margin: 18px;
+    padding-left: 10px;
+    gap: 8px;
+    font-size: 13px;
+  }
+  .hero__textbox::placeholder {
+    font-size: 10px;
+  }
+}

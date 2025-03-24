@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ethical LinkedIn Profile Extractor</title>
+    <meta
+      name="description"
+      content="A fast and compliant way to extract a LinkedIn profile to a CSV with no access to LinkedIn's API."
+    />
+    <meta name="author" content="Enio Borges" />
+    <meta
+      name="keywords"
+      content="crud, api, linkedin, profile, scraper, csv"
+    />
+    <link rel="stylesheet" href="./css/pages/index.css" />
+    <link rel="icon" href="./favicon.ico" />
+  </head>
+  <body class="body">
+    <div class="page">
+      <header class="header">
+        <h1 class="header__title">Ethical LinkedIn Profile Extractor</h1>
+        <img
+          class="header__icon"
+          src="./images/profile_icon.png"
+          alt="A white drawing of a person's profile as an icon."
+        />
+      </header>
+      <main class="content">
+        <!-- Hero division for inputs -->
+        <section class="hero">
+          <h2 class="hero__heading">Convert a profile to CSV in 1 minute</h2>
+          <ol class="hero__list-instructions">
+            <li>
+              Copy and paste the Linkedin profile URL here.
+              <input
+                type="text"
+                class="hero__textbox"
+                id="urlInput"
+                placeholder="https://www.linkedin.com/in/example-profile-1"
+              />
+            </li>
+            <li>Hit Convert to CSV and wait for a minute.</li>
+            <li>Save the CSV file.</li>
+            <li>Refresh to restart.</li>
+          </ol>
+
+          <p class="hero__success-message" id="successMessage1">
+            Success! You can download the CSV now.
+          </p>
+        </section>
+        <section class="actions">
+          <button class="actions__convert-button" id="convertButton1">
+            Convert to CSV
+          </button>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__version">Version: 1.0.2</p>
+        <p class="footer__copyright">© Enio Borges 2025</p>
+      </footer>
+      <script src="./js/events/domEvents.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+.body {
+  /* resets default browser margins that may interfere in the styles */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}

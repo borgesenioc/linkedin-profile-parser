@@ -1,0 +1,10 @@
+.page {
+  width: 100%;
+  height: auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f8fb;
+  color: #333;
+}

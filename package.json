@@ -1,0 +1,34 @@
+{
+  "name": "ethical-linkedin-profile-extractor",
+  "version": "1.0.0",
+  "description": "A simple and fast LinkedIn web app to extract your LinkedIn profile to CSV.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borgesenioc/linkedin-private-extractor.git"
+  },
+  "keywords": [
+    "linkedin",
+    "scraper",
+    "csv",
+    "extractor",
+    "profile",
+    "api"
+  ],
+  "author": "Enio Borges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borgesenioc/linkedin-private-extractor/issues"
+  },
+  "homepage": "https://github.com/borgesenioc/linkedin-private-extractor#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "prettier": "^3.5.2"
+  },
+  "type": "module"
+}
